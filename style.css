@@ -1,0 +1,129 @@
+  header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  } 
+   
+   
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left{
+    width: 40%;
+    font-weight: 900px;
+}
+@media(max-width:900px){
+    .right img{
+        width: 350px;
+    }
+}
+@media(max-width:768px){
+    .box1{
+        flex-direction: column;
+    }
+}
+.tr{
+    color: #00EEFF;
+
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600px;
+}
+body{
+    background: #1F242D;
+    width: 100%;
+}
+nav{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h3{
+    color: #FFFFFF;
+}
+.mmm{
+    font-size: 56px;
+    font-weight: 700px;
+}
+b{
+    font-weight: 700px;
+    font-size: 32px;
+    color: #00EEFF;
+}
+.miko{
+    font-weight: 700px;
+    font-size: 32px;
+}
+p{
+    font-size: 400px;
+    font-size: 16px;
+    color: white;
+}
+button{
+    margin: 20px;
+    font-weight: 600px;
+    font-size: 16px;
+    width: 176.59px;
+    height: 45px;
+    background-color: #00EEFF;
+    border-radius: 40px;
+    border: none;
+    box-shadow: px 10px 10px #00EEFF;
+}
+.icons{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box2{
+    width: 100%;
+    height: 749px; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+.card1{
+    border-radius: 20px;
+    padding-top: 30px;
+    background: #323946;
+    text-align: center;
+    width: 300.27px;
+    height: 330px;
+}
+.card2{
+    border-radius: 20px;
+    padding-top: 30px;
+    background: #323946;
+    text-align: center;
+    width: 300.27px;
+    height: 330px;
+}
+.card3{
+    border-radius: 20px;
+    padding-top: 30px;
+    background: #323946;
+    text-align: center;
+    width: 300.27px;
+    height: 330px;
+}
+.mn{
+    font-weight: 700px;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 200px;
+}
+.bv{
+    font-weight: 700px;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 200px;
+}
